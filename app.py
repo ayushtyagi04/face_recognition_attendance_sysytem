@@ -96,8 +96,6 @@ def add_attendance(user_id):
         print(f"Error adding attendance: {e}")
 
 
-
-
 def get_attendance_data(date_str):
     try:
         file_path = f'Attendance/Attendance-{date_str}.csv'
